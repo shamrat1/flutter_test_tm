@@ -5,9 +5,9 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
-import 'package:test_tr_store/shared/domain/models/product/product_model.dart';
 import 'package:http/http.dart' as http;
-import 'package:test_tr_store/shared/domain/providers/local_products_provider.dart';
+import 'package:test_tr_store/models/product/product_model.dart';
+import 'package:test_tr_store/providers/local_products_provider.dart';
 
 const String productsTable = 'products';
 

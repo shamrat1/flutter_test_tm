@@ -1,8 +1,8 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
-import 'package:test_tr_store/shared/domain/models/product/product_model.dart';
-import 'package:test_tr_store/shared/domain/providers/remote_products_provider.dart';
+import 'package:test_tr_store/models/product/product_model.dart';
+import 'package:test_tr_store/providers/remote_products_provider.dart';
 
 final localProductsProvider =
     FutureProvider.autoDispose<List<Product>>((ref) async {
